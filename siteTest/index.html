@@ -1,8 +1,11 @@
 <!DOCTYPE HTML>
-<html lang="fr"> 
+<html lang="fr">
 <head>
-	<title>Rémy Lefebvre</title>
-	<meta content="text/html; charset=utf-8"/>
+	<title>Rémy Lefebvre - Développeur FullStack</title>
+	<meta name="description" content="Rémy Lefebvre - Développeur FullStack chez @EnvergureD - Master: Expert en Etudes et Développement du Système d’Information">
+	<meta charset="UTF-8">
+	<link rel="canonical" href="http://remylefebvre.fr" />
+	<meta http-equiv="Content-type" content="text/html; charset=UTF-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
 	<link rel="stylesheet" href="assets/css/main.css" />
 	<!--[if lte IE 9]><link rel="stylesheet" href="assets/css/ie9.css" /><![endif]-->
@@ -45,7 +48,7 @@
 				<h2 class="major">Introduction</h2>
 				<span class="image main"><img src="images/dev.jpg" alt="" /></span>
 				<p>Actuellement développeur en Bachelor responsable de projet informatique. Je développe et j'aime ça ! Récemment spécialisé web je suis actuellement en poste à la DSI du groupe Orange.</p>
-				<p>Je souhaiterai intégrer un Master "Expert en developpement Web" en octobre 2018.<br/> Le tout en contrat de Professionnalisation sur 2 ans.
+				<p>Je souhaiterai intégrer un Master "Expert en développement Web" en octobre 2018.<br/> Le tout en contrat de Professionnalisation sur 2 ans.
 					<p>Je pratique le Wakeboard pour rester en forme ! et développe pour le plaisir le reste de mon temps. Vous pouvez retrouver quelques expérimentations sur mon github. Tous ce qui s'y trouve est OpenSource</p>
 					<p>Passionné par la science: plus précisement la Géologie/Biologie. J'aimerai beaucoup pouvoir apporter ma pierre au grand édifice qu'est la recherche, en développant des outils pour simplifier les travaux des chercheurs.</p>
 				</article>
@@ -56,19 +59,19 @@
 					<h3>Développeur/Concepteur Web</h3>
 					<span class="image main"><img src="images/Orange.jpg" alt="" /></span>
 					<h3>Septembre 2017, Octobre 2018 - Paris 11</h3>
-					<p>Développeur à la DSI d’Orange France.<br/>
-						J'ai participé au développement d’une « single page application » (SPA, JS, mvc)</p>
+					<p>Développeur à la DSI déOrange France.<br/>
+						J'ai participé au développement d'une "single page application" (SPA, JS, mvc)</p>
 						<p>Conception et développement de WebServices (PHP, JS) font partie de mon quotidien.
 							<br/>En lien avec ma formation:<br/>j'ai aussi été amené à faire la gestion d'un projet de A à Z</p>
-							<p>Utilisation d’outils : soap, gantt, git/svn</p>
+							<p>Utilisation d'outils : soap, gantt, git/svn</p>
 
 							<h2 class="major">Cdip</h2>
 							<h3>Développeur Web</h3>
 							<span class="image main"><img src="images/Facilotab2.png" alt="" /></span>
 							<h3>Juin 2016, Aout 2017 - Osny 95</h3>
-							<p>Développeur Web en charge de l’installation d’un CMS Ecommerce (Prestashop) ainsi que créateur de : Modules et WebServices (PHP mvc, Smarty, REST)</p>
+							<p>Développeur Web en charge de l'installation d'un CMS Ecommerce (Prestashop) ainsi que créateur de : Modules et WebServices (PHP mvc, Smarty, REST)</p>
 							<p>J'ai fais mes premiers pas dans l'univers du dev front en créant le template du site</p>
-							<p>Utilisation d’outils : mantis, git/svn</p>
+							<p>Utilisation d'outils : mantis, git/svn</p>
 						</article>
 
 						<!-- About -->
@@ -146,19 +149,36 @@
 
 				<!-- BG -->
 				<div id="bg">
-					<!-- particles.js container -->
-					<div id="particles-js"></div>
+
+
 				</div>
 
 
 				<!-- Scripts -->
 				<script src="assets/js/jquery.min.js"></script>
+				<script>
+
+				if(window.innerWidth <= 800 && window.innerHeight <= 600){
+
+				}else{
+						$('#bg').html('<div id="particles-js"></div>');
+				}
+
+				</script>
 				<script src="assets/js/skel.min.js"></script>
 				<script src="assets/js/util.js"></script>
 				<script src="assets/js/main.js"></script>
 				<script src="assets/js/particles.min.js"></script>
 				<script src="assets/js/app.js"></script>
 
+				<!-- Global Site Tag (gtag.js) - Google Analytics -->
+				<script async src="https://www.googletagmanager.com/gtag/js?id=UA-98228500-1"></script>
+				<script>
+					window.dataLayer = window.dataLayer || [];
+					function gtag(){dataLayer.push(arguments);}
+					gtag('js', new Date());
 
+					gtag('config', 'UA-98228500-1');
+				</script>
 			</body>
 			</html>

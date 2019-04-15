@@ -1,0 +1,2 @@
+User-agent: *
+Sitemap: http://remylefebvre.fr/sitemap.xml
